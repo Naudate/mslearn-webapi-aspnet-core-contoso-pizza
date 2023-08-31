@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\EurofinsDirectory\\ContosoPizza\\ContosoPizza.csproj": {}
+  },
+  "projects": {
+    "C:\\EurofinsDirectory\\ContosoPizza\\ContosoPizza.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\EurofinsDirectory\\ContosoPizza\\ContosoPizza.csproj",
+        "projectName": "ContosoPizza",
+        "projectPath": "C:\\EurofinsDirectory\\ContosoPizza\\ContosoPizza.csproj",
+        "packagesPath": "C:\\Users\\n8bm\\.nuget\\packages\\",
+        "outputPath": "C:\\EurofinsDirectory\\ContosoPizza\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\n8bm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.eurofins.local/artifactory/api/nuget/nuget-eurofins-elimsswef-prerelease": {},
+          "https://packages.eurofins.local/artifactory/api/nuget/nuget-eurofins-elimsswef/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
